@@ -3,19 +3,19 @@
 # **Fraud Detection Model Using XGBoost**
 
 ## **Overview**
-This project implements a machine learning-based fraud detection system using the XGBoost classifier. The model was trained on a publicly available dataset to identify fraudulent transactions with high accuracy while minimizing false positives. This repository includes scripts for data preprocessing, model training, evaluation, and scripts for predicting new transactions.
+
+Detecting fraudulent credit card transactions is critical to safeguarding customers and ensuring they are not charged for unauthorized purchases. It also helps credit card companies minimize financial losses and maintain customer trust. This project addresses this challenge by implementing a machine learning-based fraud detection system using the XGBoost classifier leveraging a publicly available dataset.
 
 ---
 
 ## **Table of Contents**
 1. [Overview](#overview)
 2. [Performance Metrics and Business Implications](#performance-metrics-and-business-implications)
-3. [Monetary Impact](#monetary-impact)
-4. [Dataset](#dataset)
-5. [Procedure](#Procedure)
-7. [Model Performance](#model-performance)
-8. [Future Work](#future-work)
-9. [License](#license)
+3. [Dataset](#dataset)
+4. [Procedure](#Procedure)
+5. [Model Performance](#model-performance)
+6. [Future Work](#future-work)
+7. [License](#license)
 
 ---
 
@@ -32,17 +32,6 @@ This project implements a machine learning-based fraud detection system using th
 | **False Negatives**    | `0`               | No fraudulent transactions are missed out of **492 fraud cases** (~0% miss rate). This eliminates potential monetary loss. |
 | **True Positives**     | `492`             | All **492 fraudulent transactions are detected** (~100% recall), preventing significant financial loss. |
 | **True Negatives**     | `284,248`         | Correctly classifies **284,248 legitimate transactions out of 284,315** (~99.98%), ensuring smooth customer experience. |
-
----
-
-## **Monetary Impact**
-
-| **Scenario**            | **Metric**                  | **Estimated Cost/Impact**                             |
-|--------------------------|----------------------------|------------------------------------------------------|
-| **Fraud Loss Prevention**| Fraudulent Transactions: 492 | **Savings: $492,000** (assuming $1,000/transaction). |
-| **Investigation Costs**  | False Positives: ~67        | **Cost: $3,350** (assuming $50/transaction).         |
-| **Customer Retention**   | True Negatives: 284,248     | Improved trust, smooth transactions, revenue retained.|
-| **Reputational Savings** | False Negatives: 0          | No reputational damage due to undetected fraud.      |
 
 ---
 
