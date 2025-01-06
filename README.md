@@ -2,10 +2,6 @@
 
 # **Fraud Detection Model Using XGBoost**
 
-## **Overview**
-
-Detecting fraudulent credit card transactions is critical to safeguarding customers and ensuring they are not charged for unauthorized purchases. It also helps credit card companies minimize financial losses and maintain customer trust. This project addresses this challenge by implementing a machine learning-based fraud detection system using the XGBoost classifier leveraging a publicly available dataset.
-
 ---
 
 ## **Table of Contents**
@@ -16,6 +12,12 @@ Detecting fraudulent credit card transactions is critical to safeguarding custom
 5. [Model Performance](#model-performance)
 6. [Future Work](#future-work)
 7. [License](#license)
+
+---
+## **Overview**
+
+Detecting fraudulent credit card transactions is critical to safeguarding customers and ensuring they are not charged for unauthorized purchases. It also helps credit card companies minimize financial losses and maintain customer trust. This project addresses this challenge by implementing a machine learning-based fraud detection system using the XGBoost classifier leveraging a publicly available dataset.
+
 
 ---
 
