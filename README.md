@@ -1,6 +1,6 @@
 
 
-# **Fraud Detection Model Using XGBoost**
+# **Credit Card Fraud Detection Model Using XGBoost**
 
 ---
 
