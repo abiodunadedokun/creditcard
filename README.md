@@ -28,7 +28,6 @@ Detecting fraudulent credit card transactions is critical to safeguarding custom
 | **Precision (Fraud)**  | `~0.88`           | **88% of flagged frauds are truly fraudulent** (67 false positives out of **284,315 legitimate transactions**). Reduces unnecessary investigations and operational costs. |
 | **Recall (Fraud)**     | `~1.00`           | **100% of fraudulent transactions are detected** (**492 out of 492 fraud cases**). Prevents financial and reputational damage. |
 | **F1-Score (Fraud)**   | `~0.94`           | Balances precision and recall, ensuring robust fraud detection while minimizing false positives. |
-| **Accuracy**           | `~1.00`           | The model correctly classifies nearly all transactions but accuracy is less meaningful due to class imbalance. |
 | **AUPRC**              | `1.00`            | The model perfectly distinguishes fraud from non-fraud cases under imbalanced conditions. |
 | **False Positives**    | `~67`             | Around **67 legitimate transactions out of 284,315** are incorrectly flagged as fraud (~0.02%), causing minor inconveniences. |
 | **False Negatives**    | `0`               | No fraudulent transactions are missed out of **492 fraud cases** (~0% miss rate). This eliminates potential monetary loss. |
